@@ -12,7 +12,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.webhook.aiohttp_server import SimpleRequestHandler
 
 # ================= CONFIG =================
-BOT_TOKEN = "ВАШ_ТОКЕН"
+BOT_TOKEN = "8695850710:AAGltT3zeuN3xY1PDNHdNMwy8fussSSobEU"
 ADMIN_IDS = [1969719151, 1145747390]  # Ваши Telegram ID
 DB_NAME = "enterprise_vip_salon.db"
 
@@ -92,7 +92,7 @@ async def menu(callback: CallbackQuery):
 
 async def price(callback: CallbackQuery):
     await callback.message.edit_text(
-        "<b>💎 VIP ПРАЙС</b>\nМаникюр — 1500₽\nМаникюр+покрытие — 2000₽\nНаращивание — 3000₽\nДизайн — от 300₽",
+        "<b>💎 VIP ПРАЙС</b>\nМаникюр — 450₽\nМаникюр+покрытие — 850₽\nНаращивание — 1150₽\nДизайн — от 20₽",
         reply_markup=main_menu()
     )
 
